@@ -1,3 +1,4 @@
+```
 sudo docker build . -t genadipost/mongodb-mms-automation-agent
 
 sudo docker run --rm \
@@ -8,3 +9,4 @@ sudo docker run --rm \
 -e AGENT_VERSION=4.5.15.5279-1.x86_64.rhel7.rpm \
 -p 27017:27017 \
 genadipost/mongodb-mms-automation-agent
+```
